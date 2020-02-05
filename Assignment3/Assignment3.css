@@ -1,0 +1,51 @@
+h1 {
+color: #800000;
+}
+
+h2{
+color: #7e1360;
+}
+
+h3{
+color: #00705d;
+}
+
+#divexample
+{
+background-color: #fdd5fd
+color: #7e1360;
+}
+.foot
+{
+background-color: #faffd8;
+color: #00264d;
+}
+#greenbackground {
+background-color: #7FFFD4;
+color: #ffffff;
+}
+.greybackground {
+  background-color: #c1eaff;
+  color: #00264d;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:active {
+ color: #0000ff;
+}
+
+a:hover {
+ color: yellow;
+}
+
+.spanstyle {
+  background-color: #decbff;
+  color: #442c60;
+}
