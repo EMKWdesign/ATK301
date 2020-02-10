@@ -1,0 +1,48 @@
+h1 {
+ color: white;
+}
+
+h2 {
+ color: blue;
+}
+
+h3 {
+ background-color: yellow;
+}
+
+h4 {
+  color: yellow;
+  background-color: green;
+}
+
+h5 {
+  color: purple;
+}
+#headblock {
+ background-color: #9dcbe3;
+}
+.spanorange {
+ color: orange;
+}
+
+.redp {
+  color: red;
+}
+
+.greenp {
+  background-color: #9de3b9;
+}
+
+a:link {
+ color: green;
+ text-decoration: none;
+}
+
+a:visited {
+ color: yellow;
+}
+
+a:hover {
+ color: #ff0000;
+ text-decoration: underline;
+}
