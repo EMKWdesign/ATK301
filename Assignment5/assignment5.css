@@ -1,0 +1,58 @@
+body {
+background-color: #fed734;
+width: 600px;
+}
+.impact {
+font-family: Impact;
+font-weight: bold;
+color: #E84BF6;
+}
+.bootsriley {
+letter-spacing: 5px;
+color: #8138BF;
+font-size: 30px;
+}
+.afilm {
+letter-spacing: 5px;
+color: #8138BF;
+font-size: 15px;
+word-spacing: 20px;
+}
+.spanred {
+  color: #E8323F;
+}
+
+.spanpurp {
+  color: #8138BF;
+  font-size: 20px;
+}
+p {
+ word-spacing: 10px;
+ font-size: 30px
+}
+header {
+  border-bottom: 3px solid #8138BF;
+  padding: 5px 10px 10px 0px;
+}
+.borderbottom {
+  border-bottom: 3px solid #8138BF;
+  padding: 0px 0px 25px 0px;
+}
+
+h1 {
+font-size:120px;
+line-height: .9;
+text-align: center;
+margin-bottom: 0;
+margin-top:10px;
+}
+.justify {
+width: inherit;
+text-align: justify;
+}
+
+footer {
+width:inherit;
+display: block;
+text-align-last: center;
+}
