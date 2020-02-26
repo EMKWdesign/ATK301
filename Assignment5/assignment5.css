@@ -56,3 +56,17 @@ width:inherit;
 display: block;
 text-align-last: center;
 }
+
+a:link {
+ color: #E84BF6;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+a:visited {
+ color: #E84BF6;
+}
+
+a:hover {
+ color: #E8323F;
+}
