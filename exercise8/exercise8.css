@@ -1,0 +1,130 @@
+
+body { background-image: url(lavender.jpg);
+}
+
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 3px solid black;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+header {
+
+  background-color: mediumpurple;
+  padding: 5px 0px 5px 10px;
+  grid-column: span 3;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+font-family: Helvetica;
+font-weight: normal;
+font-size: 20px;
+color: black;
+}
+
+nav {
+  font-family: Helvetica;
+ grid-column: span 3;
+ margin: 20px 10px 10px 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+  margin: 0;
+  padding:0px 10px 10px 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+nav li a {
+  display: block;
+  background-color: indigo;
+  border: 2px solid black;
+  padding: 1em;
+  color: white!important;
+  text-decoration: none;
+}
+
+nav li a:hover {
+background-color: darkred;
+text-decoration: none!important;
+}
+
+main {
+  font-family: Georgia;
+  text-align: justify;
+  grid-column: span 2;
+}
+
+img {
+
+  margin: 10px;
+  padding:10px;
+float:right;
+}
+
+.pixelwidth {
+
+  width: 300px;
+}
+
+h2 {
+margin: 5px 15px 10px 10px;
+padding: 0px 10px 10px 5px;
+border-bottom: 3px solid black;
+}
+
+
+p {
+  margin: 15px;
+
+}
+
+a:link {
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+ color: pink;
+ text-decoration: underline;
+}
+
+.bluey  {
+  background-color: mediumpurple;
+  color: white;
+  margin: 15px
+
+}
+.wb {
+  border-bottom: 3px solid white;
+}
+
+
+footer {
+color: black;
+background-color: mediumpurple;
+font-family: helvetica;
+grid-column: span 3;
+border-top: 2px solid black;
+padding: 5px 30px 5px 30px;
+
+}
