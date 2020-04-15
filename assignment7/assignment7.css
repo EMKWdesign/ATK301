@@ -1,3 +1,4 @@
+
 body {
 background-color: white;
 display: grid;
@@ -9,37 +10,41 @@ grid-template-columns: repeat(12);
 }
 
 header {
+  font-family: "LoRes 9 OT Wide Bold";
   background-color: black;
   grid-column: span 12;
   Height:74px;
   display: block;
-
-}
-
-h1 {
-  font-family: Helvetica;
-  font-weight: normal;
-  font-size: 50px;
-  color: white;
-  padding: 6px 0px 24px 0px;
+  padding: 0;
   margin: 0;
 }
 
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  height: 74px;
+  color: white;
+  padding: 10px 0px 0px 24px;
+  margin: 0px;
+}
+
 h1 a {
-font-family: Helvetica;
+font-family: "LoRes 9 OT Wide Bold";
 font-weight: normal;
 font-size: 50px;
 color: white;
-padding: 0px 0px 0px 24px;
+padding: 0;
+margin: 0;
 text-decoration: none;
 }
 
 h1 a:hover {
-font-family: Helvetica;
+  font-family: "LoRes 9 OT Wide Bold";
 font-weight: normal;
 font-size: 50px;
 color: deeppink;
-padding: 0px 0px 0px 24px;
+padding: 0;
+margin: 0;
 text-decoration: none;
 }
 
@@ -88,7 +93,10 @@ text-decoration: none;
 }
 
 nav {
-  font-family: Helvetica;
+  font-family: lores-9-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
   display: inline-block;
   grid-column: span 3;
   padding: 0;
@@ -110,17 +118,21 @@ nav li {
 }
 
 nav li a {
+
   display: block;
   width: 344px;
   color: white!important;
   text-decoration: none;
-  padding: 28px 0px 28px 24px;
+  padding: 20px 0px 28px 24px;
   margin: 24px 0px 0px 0px;
 }
 
 nav li a:hover {
+
 background-color: #292929;
 text-decoration: none!important;
-padding: 28px 0px 28px 30px;
+padding: 20px 0px 28px 30px;
+margin: 24px 0px 0px 0px;
 width: 338px;
+height: 26px;
 }
