@@ -52,25 +52,6 @@ text-decoration: none;
 }
 
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 172px);
-  grid-template-rows: repeat(3, 172px);
-  grid-gap: 24px;
-  background-color: white;
-  margin: 24px;
-}
-.cell {
-   /* center the cell content */
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: Arial;
-  font-size: 3rem;
-  font-weight: bold;
-  background: lightgrey;
-}
-
 .container2 {
   display: inline-block;
   height: 1078px;
@@ -156,6 +137,7 @@ height: 26px;
   width: 808px;
   padding: 0px 0px 0px 0px;
   margin: 24px;
+  box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
 }
 
 .insidebox {
