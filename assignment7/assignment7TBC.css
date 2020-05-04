@@ -47,10 +47,65 @@ margin: 0;
 text-decoration: none;
 }
 
+h2 {
+font-family: "LoRes 9 OT Wide Bold";
+font-weight: normal;
+font-size: 36px;
+margin-left: 30px;
+}
+
+h3 {
+font-family: lores-9-narrow, sans-serif;
+font-size: 25px;
+margin-left: 30px;
+}
+
+
+p {
+  font-family: lores-9-narrow, sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.intro {
+font-family: lores-9-narrow, sans-serif;
+font-size: 25px;
+margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.including {
+  margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 54px;
+}
+
+.insidebox ul {
+   font-size: 20px;
+   font-family: lores-9-narrow, sans-serif;
+   margin-top: 0px;
+     margin-bottom: 20px;
+     margin-right: 20px;
+     margin-left: 35px;
+
+ }
+
+ .insidebox li {
+   margin-top: 0px;
+     margin-bottom: 10px;
+     margin-right: 0px;
+     margin-left: 0px;
+ }
+
 .box {
 
 }
-
 
 .container2 {
   display: inline-block;
@@ -128,8 +183,6 @@ width: 338px;
 height: 26px;
 }
 
-
-
 .box {
   display: inline-block;
   background-color: black;
@@ -142,8 +195,28 @@ height: 26px;
 
 .insidebox {
   display: inline-block;
+  position: sticky;
   width: 784px;
   height: 1054px;
   background-color: white;
   margin: 12px;
+  color: black;
+  overflow-y: scroll;
 }
+
+.insidebox::-webkit-scrollbar {
+        width: 10px;
+    }
+
+.insidebox::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+.insidebox::-webkit-scrollbar-thumb {
+        background: darkgrey;
+
+    }
+
+.insidebox::-webkit-scrollbar-thumb:hover {
+        background: grey;
+    }
